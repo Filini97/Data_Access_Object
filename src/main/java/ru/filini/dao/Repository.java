@@ -24,6 +24,7 @@ public class Repository {
 
     public List<String> getProductName(String name) {
         Map<String, String> paramMap = new HashMap<>();
+        paramMap.put("name", name);
         return jdbcTemplate.queryForList(script, paramMap, String.class);
     }
 
