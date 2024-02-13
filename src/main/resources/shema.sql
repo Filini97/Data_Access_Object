@@ -16,7 +16,7 @@ create table if not exists ORDERS
     amount       int
     );
 
-insert into CUSTOMERS(mane, surname, age, phone_number)
+insert into CUSTOMERS(name, surname, age, phone_number)
 values
     ('Alexey', 'Ivanov', 26, 88002223535),
     ('Borya', 'Popov', 72, 84972501492),
